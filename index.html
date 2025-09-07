@@ -28,7 +28,7 @@
         }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Times New Roman', Times, serif;
             background: linear-gradient(135deg, var(--darker), var(--dark));
             color: var(--light);
             line-height: 1.6;
@@ -108,10 +108,6 @@
             align-items: center;
         }
 
-        .logo-accent {
-            color: var(--primary);
-            margin-right: 4px;
-        }
 
         .nav-links {
             display: flex;
@@ -539,100 +535,6 @@
             gap: 12px;
         }
 
-        /* Education Section */
-        .education-timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .education-timeline::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 2px;
-            height: 100%;
-            background: var(--card-border);
-        }
-
-        .timeline-item {
-            position: relative;
-            margin-bottom: 40px;
-            width: 50%;
-            padding: 0 40px;
-        }
-
-        .timeline-item:nth-child(odd) {
-            left: 0;
-        }
-
-        .timeline-item:nth-child(even) {
-            left: 50%;
-        }
-
-        .timeline-content {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 15px;
-            padding: 25px;
-            backdrop-filter: blur(10px);
-        }
-
-        .timeline-year {
-            position: absolute;
-            top: 0;
-            width: 80px;
-            height: 30px;
-            background: var(--primary);
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 0.9rem;
-        }
-
-        .timeline-item:nth-child(odd) .timeline-year {
-            right: -40px;
-        }
-
-        .timeline-item:nth-child(even) .timeline-year {
-            left: -40px;
-        }
-
-        .timeline-dot {
-            position: absolute;
-            top: 35px;
-            width: 20px;
-            height: 20px;
-            background: var(--primary);
-            border-radius: 50%;
-        }
-
-        .timeline-item:nth-child(odd) .timeline-dot {
-            right: -10px;
-        }
-
-        .timeline-item:nth-child(even) .timeline-dot {
-            left: -10px;
-        }
-
-        .timeline-title {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-        }
-
-        .timeline-subtitle {
-            color: var(--primary);
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .timeline-details {
-            color: var(--muted);
-            font-size: 0.95rem;
-        }
 
         /* Contact Section */
         .contact-container {
@@ -881,7 +783,7 @@
     <header id="header">
         <div class="container nav-container">
             <div class="logo">
-                <span class="logo-accent">&lt;</span>Souvik<span class="logo-accent">/&gt;</span>
+                Souvik
             </div>
             <nav class="nav-links">
                 <a href="#home">Home</a>
@@ -926,7 +828,7 @@
             </div>
             <div class="hero-visual">
                 <div class="profile-card">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Souvik Patra" class="profile-img">
+                    <img src="./assets/Souvik patra.jpg" alt="Souvik Patra" class="profile-img">
                     <h2 class="profile-name">Souvik Patra</h2>
                     <p class="profile-title">Data Science Student</p>
                     <div class="profile-details">
